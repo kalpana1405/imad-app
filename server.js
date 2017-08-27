@@ -18,11 +18,11 @@ app.get('/page-one', function (req, res) {
 });
 
 app.get('/page-two', function (req, res) {
-  res.send("page two will update soon!");
+  res.sendFile(path.join(__dirname, 'ui', 'page-two.html'));
 });
 
 app.get('/page-three', function (req, res) {
-  res.send("page three will update soon!");
+  res.sendFile(path.join(__dirname, 'ui', 'page-three.html'));
 });
 
 app.get('/ui/madi.png', function (req, res) {
