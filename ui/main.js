@@ -3,7 +3,15 @@ console.log('Loaded!');
 //move the image!
 
 var img= document.getElementById('sk');
-img.onclick= function (){
+
+var margineLeft=0;
+
+function moveRight (){
+
+img.style.margineLeft = margineLeft + 'px' ;    
     
- img.style.marginLeft= '150px'   ;
+}
+
+img.onclick= function (){
+    var interval = setInterval(moveRight,100);
 }
