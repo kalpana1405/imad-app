@@ -4,11 +4,11 @@ console.log('Loaded!');
 
 var img= document.getElementById('sk');
 
-var margineLeft=0;
+var marginLeft=0;
 
 function moveRight (){
 
-img.style.margineLeft = margineLeft + 'px' ;    
+img.style.marginLeft = marginLeft + 'px' ;    
     
 }
 
