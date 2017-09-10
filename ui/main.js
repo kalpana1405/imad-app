@@ -5,5 +5,5 @@ console.log('Loaded!');
 var img= document.getElementById('sk');
 img.onclick= function (){
     
- img.Style.margineLeft= '150px'   ;
+ img.style.marginLeft= '150px'   ;
 }
