@@ -11,5 +11,7 @@ img.style.marginLeft = marginLeft + 'px' ;
 }
 img.onclick= function (){
     var interval = setInterval(moveRight,50);
-    document.write('told you');
+    
+    // its not working simultaneously with annimation 
+    //document.write('told you');
 }
