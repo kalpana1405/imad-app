@@ -45,7 +45,7 @@ app.get('/counter', function (req, res){
 
 function hash(input,salt){
     var hashed = crypto.pbkdf25ync(input,salt,1000,512,'sha512');
-    return.hashed.tostring('hex');
+    return hashed.tostring('hex');
 }
 
 
